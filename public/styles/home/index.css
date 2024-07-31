@@ -1,0 +1,151 @@
+.hero {
+  min-height: 80vh;
+  background-color: aquamarine;
+  background-image: url("../../images/backgrounds/blog-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+}
+
+.hero-align {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 80vh;
+}
+
+.hero-content {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 48px;
+}
+
+.hero-subtitle {
+  font-size: 32px;
+  font-weight: normal;
+  margin-top: 24px;
+}
+
+.blog {
+  margin: 48px 0;
+}
+
+.user-info {
+  margin: 48px 0;
+}
+
+.user-info-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.user-info-tagline {
+  font-size: 13px;
+}
+
+.blog-title {
+  font-size: 28px;
+  margin-bottom: 32px;
+}
+
+.blog-items .row {
+  margin-top: 32px;
+}
+
+.post-title {
+  display: inline-block;
+  text-decoration: none;
+  margin: 16px 0 8px;
+}
+
+.post-description {
+  text-align: justify;
+  max-height: 55px;
+  min-height: 55px;
+  overflow: hidden;
+}
+
+.post-link {
+  display: block;
+}
+
+.post-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.review {
+  padding: 0;
+  overflow: hidden;
+}
+
+.review-image {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.review-section.content {
+  padding: 24px 16px;
+}
+
+.review-title {
+  margin-bottom: 12px;
+}
+
+.review-description {
+  margin-top: 24px;
+  max-height: 55px;
+  min-height: 55px;
+  overflow: hidden;
+}
+
+.review-more {
+  display: block;
+  padding: 15px 45px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.review-avatar {
+  margin: -60px 0 32px;
+}
+
+.review-avatar-image {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.social-members {
+  background-image: url("../../images/folio/folio-6.jpg");
+  background-size: cover;
+  background-position: top left;
+}
+
+.social-members-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #111;
+}
+
+.social-members .col {
+  text-align: center;
+}

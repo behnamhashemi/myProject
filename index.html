@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="public/styles/grid.css">
+    <link rel="stylesheet" href="public/styles/general.css">
+    <link rel="stylesheet" href="public/styles/home/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col col-3 col-va-m">
+                    <a href="/" class="logo text">LOGO</a>
+                </div>
+                <div class="col col-9 col-va-m menu-align">
+                    <!-- ul.menu>li.menu-item*4>a.menu-link text{menu} -->
+                    <ul class="menu">
+                        <li class="menu-item"><a href="/" class="menu-link text">Home</a></li>
+                        <li class="menu-item"><a href="/" class="menu-link text">Blog</a></li>
+                        <li class="menu-item"><a href="/" class="menu-link text">About us</a></li>
+                        <li class="menu-item"><a href="/" class="menu-link text">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section hero">
+            <div class="container">
+                <!-- div.hero-align+div.hero-content.text{Hero section} -->
+                <div class="hero-align"></div>
+                <div class="hero-content">
+                    <h2 class="hero-title">Hero section</h2>
+                    <h3 class="hero-subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit</h3>
+                </div>
+            </div>
+        </section>
+        <!-- section.user-info>.container>.row>.col*2 -->
+        <section class="user-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-auto col-va-m">
+                        <img class="user-info-img" src="public/images/avatars/avatar-3.jpg" alt="avatar">
+                    </div>
+                    <div class="col col-auto col-va-m">
+                        <strong class="user-info-title text">Lorem ipsum dolor sit.</strong>
+                        <p class="user-info-tagline text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section.blog>div.container>div.row>div.col*2>div.block.text{col} -->
+        <section class="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-4">
+                        <div class="block text">Sidebar</div>
+                    </div>
+                    <div class="col col-8">
+                        <div class="block">
+                            <h2 class="text blog-title">Latest blog</h2>
+                            <div class="blog-items">
+                                <div class="post row">
+                                    <div class="col col-3">
+                                        <a href="#" class="post-link">
+                                            <img src="public/images/blog/blog-1.jpg" alt="post" class="post-img">
+                                        </a>
+                                    </div>
+                                    <div class="col col-9">
+                                        <small class="text text-sm text-muted">Sat Jul 15 2023 05:59:57</small>
+                                        <h3><a href="#" class="post-title text">Lorem, ipsum dolor.</a></h3>
+                                        <p class="text post-description">Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing
+                                            elit. Eaque,
+                                            vero ullam
+                                            labore molestiae veritatis dolorum deserunt itaque voluptatem nobis amet,
+                                            deleniti quo. Nihil eos perferendis obcaecati illo, nisi quod tenetur
+                                            molestias?
+                                            Quas, reprehenderit! Sed officiis aperiam tenetur est enim aliquam autem.
+                                            Rem
+                                            rerum possimus corrupti! Vero, et sunt placeat labore commodi hic quisquam
+                                            recusandae ab non cum esse sit soluta.</p>
+                                    </div>
+                                </div>
+                                <div class="post row">
+                                    <div class="col col-3">
+                                        <a href="#" class="post-link">
+                                            <img src="public/images/blog/blog-2.jpg" alt="post" class="post-img">
+                                        </a>
+                                    </div>
+                                    <div class="col col-9">
+                                        <small class="text text-sm text-muted">Sat Jul 15 2023 05:59:57</small>
+                                        <h3><a href="#" class="post-title text">Lorem, ipsum dolor.</a></h3>
+                                        <p class="text post-description">Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing
+                                            elit. Eaque,
+                                            vero ullam
+                                            labore molestiae veritatis dolorum deserunt itaque voluptatem nobis amet,
+                                            deleniti quo. Nihil eos perferendis obcaecati illo, nisi quod tenetur
+                                            molestias?
+                                            Quas, reprehenderit! Sed officiis aperiam tenetur est enim aliquam autem.
+                                            Rem
+                                            rerum possimus corrupti! Vero, et sunt placeat labore commodi hic quisquam
+                                            recusandae ab non cum esse sit soluta.</p>
+                                    </div>
+                                </div>
+                                <div class="post row">
+                                    <div class="col col-3">
+                                        <a href="#" class="post-link">
+                                            <img src="public/images/blog/blog-3.jpg" alt="post" class="post-img">
+                                        </a>
+                                    </div>
+                                    <div class="col col-9">
+                                        <small class="text text-sm text-muted">Sat Jul 15 2023 05:59:57</small>
+                                        <h3><a href="#" class="post-title text">Lorem, ipsum dolor.</a></h3>
+                                        <p class="text post-description">Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing
+                                            elit. Eaque,
+                                            vero ullam
+                                            labore molestiae veritatis dolorum deserunt itaque voluptatem nobis amet,
+                                            deleniti quo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section.reviews>div.container>div.row>div.col.col-4*3>div.block.review>div.review-section*2 -->
+        <section class="reviews">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-4">
+                        <div class="block review">
+                            <div class="review-section">
+                                <img src="public/images/blog/blog-1.jpg" alt="review" class="review-image">
+                            </div>
+                            <div class="review-section content">
+                                <div class="review-avatar">
+                                    <img src="public/images/avatars/avatar-1.jpg" alt="avatar"
+                                        class="review-avatar-image">
+                                </div>
+                                <h3 class="review-title text">Lorem ipsum dolor sit.</h3>
+                                <small class="text text-sm text-muted">Sat Jul 15 2023 05:59:57</small>
+                                <p class="review-description text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Adipisci autem corrupti ab minus facere explicabo dignissimos illum totam voluptatem
+                                    accusantium?</p>
+                                <a href="#" class="review-more text">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4">
+                        
+                        <div class="block review">
+                            <div class="review-section">
+                                <img src="public/images/blog/blog-2.jpg" alt="review" class="review-image">
+                            </div>
+                            <div class="review-section content">
+                                <div class="review-avatar">
+                                    <img src="public/images/avatars/avatar-2.jpg" alt="avatar"
+                                        class="review-avatar-image">
+                                </div>
+                                <h3 class="review-title text">Lo    rem ipsum dolor sit.</h3>
+                                <small class="text text-sm text-muted">Sat Jul 15 2023 05:59:57</small>
+                                <p class="review-description text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Adipisci autem corrupti ab minus facere explicabo dignissimos illum totam voluptatem
+                                    accusantium?</p>
+                                <a href="#" class="review-more text">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4">
+                        <div class="block review">
+                            <div class="review-section">
+                                <img src="public/images/blog/blog-3.jpg" alt="review" class="review-image">
+                            </div>
+                            <div class="review-section content">
+                                <div class="review-avatar">
+                                    <img src="public/images/avatars/avatar-3.jpg" alt="avatar"
+                                        class="review-avatar-image">
+                                </div>
+                                <h3 class="review-title text">Lorem ipsum dolor sit.</h3>
+                                <small class="text text-sm text-muted">Sat Jul 15 2023 05:59:57</small>
+                                <p class="review-description text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Adipisci autem corrupti ab minus facere explicabo dignissimos illum totam voluptatem
+                                    accusantium?</p>
+                                <a href="#" class="review-more text">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section.social-members>.container>h2.social-members-title.text{Social
+        Members}+.row>.col.col-4*3>h3.social-members-space.text{Facebook}+strong.social-members-count.text{32K} -->
+        <section class="social-members py-lx my-md">
+            <div class="container">
+                <h2 class="social-members-title text">Social Members</h2>
+                <div class="row">
+                    <div class="col col-4">
+                        <h3 class="text text-semibold mb-sm">Facebook</h3>
+                        <strong class="text text-lx text-italic">5K</strong>
+                    </div>
+                    <div class="col col-4">
+                        <h3 class="text text-semibold mb-sm">Twiter</h3>
+                        <strong class="text text-lx text-italic">1,2K</strong>
+                    </div>
+                    <div class="col col-4">
+                        <h3 class="text text-semibold mb-sm">Youtube</h3>
+                        <strong class="text text-lx text-italic">32,1K</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
